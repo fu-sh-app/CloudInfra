@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "s3_1" {
   bucket = "S3_1"
-  acl    = "public"
+  acl    = "private"
 
   tags = {
     Name        = "My bucket"
